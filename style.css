@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.keys{
+    display: flex;
+    flex-direction: row;
+}
+.key{
+    border: 2px solid black;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.playing{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.295);
+    transform: scale(1.1);
+    transition: 0.2s;
+}
